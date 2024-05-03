@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d53369;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #cbad6d, #d53369);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cbad6d, #d53369); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+#contador {
+    display: flex;
+    font-family: cursive;
+    font-size: 70px;
+    flex-wrap: wrap;
+    flex-direction: row;
+color: #fff4ed;
+font-family: "Dancing Script", cursive;
+  
+
+}
+.img img{
+  margin: 20px;
+  width: 70%;
+
+}
